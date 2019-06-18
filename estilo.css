@@ -1,0 +1,33 @@
+
+/* Resetando os estilos */
+* {margin:0; padding:0 }
+
+/* adicionando uma cor ao fundo da página */
+body {
+     background: #eee; font:16px "Trebuchet MS";
+}
+
+/* Colocando o corpo da página no meio */
+#corpo {
+    border:1px solid #ccc;
+    padding:5%;
+    margin:0 auto; 
+}
+
+/*Formatando a table que exibe os produtos que estão no carrinho */
+
+table {
+    border-collapse: collapse;
+}
+
+thead { border:1px solid #ccc;}
+thead tr { background: #ccc; color: black; border-bottom: 2px solid #000}
+thead th { padding:10px;}
+
+tbody {border:1px solid #ccc;}
+tbody td{ padding:10px; text-align: center;}
+tbody tr:hover {background: #fff; cursor: default;}
+
+/*Formando os links */
+#corpo a { color: red; text-decoration: underline; background: red;}
+#corpo a:hover {text-decoration: none; background: red; color: #fff}
